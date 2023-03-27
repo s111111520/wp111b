@@ -1,6 +1,7 @@
-function isPrime(n) 
-  if (n === 1) {return false}
-  
-  if (n === 2 || n === 3) {return true}
-  
-  if (n % 2 === 0) {return false}
+function fibonacci(n) {
+  if (n <= 1) {
+    return n;
+  } else {
+    return fibonacci(n - 1) + fibonacci(n - 2);
+  }
+}
