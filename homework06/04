@@ -1,0 +1,18 @@
+function mmul(a, b) {
+  if (a[0].length !== b.length) {
+    throw new Error("Number of columns of A must match number of rows of B");
+  }
+  var result = [];
+  for (var i = 0; i < a.length; i++) {
+    var row = [];
+    for (var j = 0; j < b[0].length; j++) {
+      var sum = 0;
+      for (var k = 0; k < b.length; k++) {
+        sum += a[i][k] * b[k][j];
+      }
+      row.push(sum);
+    }
+    result.push(row);
+  }
+  return result;
+}
