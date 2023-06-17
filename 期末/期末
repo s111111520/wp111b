@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title>我的前端網站</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>歡迎來到我的網站</h1>
+    <nav>
+      <ul>
+        <li><a href="#">首頁</a></li>
+        <li><a href="#">關於我們</a></li>
+        <li><a href="#">服務</a></li>
+        <li><a href="#">聯絡我們</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h2>關於我們</h2>
+      <p>這裡是一些關於我們的內容。</p>
+    </section>
+    
+    <section>
+      <h2>服務</h2>
+      <ul>
+        <li>服務1</li>
+        <li>服務2</li>
+        <li>服務3</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>聯絡我們</h2>
+      <p>請填寫以下表單以聯絡我們：</p>
+      <form>
+        <input type="text" placeholder="姓名">
+        <input type="email" placeholder="電子郵件">
+        <textarea placeholder="訊息"></textarea>
+        <button type="submit">送出</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>版權所有 &copy; 2023 我的前端網站</p>
+  </footer>
+</body>
+</html>
